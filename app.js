@@ -123,6 +123,3 @@ let {statusCode=500,message="Something went Wrong"}=err;
 res.render("listings/error.ejs",{message});
 });
 
-app.listen(8080,()=>{
-    console.log("server Runnng");
-})
